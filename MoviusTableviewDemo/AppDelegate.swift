@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+
+    // MARK: - Core Data stack
+    lazy var persistentContainer: NSPersistentContainer = {
+      let container = NSPersistentContainer(name: "ProductDetail")
+      container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+        if let error = error as NSError? {
+          fatalError("Unresolved error \(error), \(error.userInfo)")
+        }
+      })
+      return container
+    }()
 
     // MARK: UISceneSession Lifecycle
 

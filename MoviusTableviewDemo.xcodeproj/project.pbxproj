@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180C287128C4BF8500B00C0E /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C287028C4BF8500B00C0E /* ProductDetailViewModel.swift */; };
+		180C287828C4C78E00B00C0E /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C287628C4C78E00B00C0E /* Product+CoreDataClass.swift */; };
+		180C287928C4C78E00B00C0E /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C287728C4C78E00B00C0E /* Product+CoreDataProperties.swift */; };
+		180C287D28C4CCC000B00C0E /* ProductDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C287B28C4CCC000B00C0E /* ProductDetailCell.swift */; };
+		180C287E28C4CCC000B00C0E /* ProductDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180C287C28C4CCC000B00C0E /* ProductDetailCell.xib */; };
+		1824190328C5FD250019EBE8 /* ProductDetailViewModel+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824190228C5FD250019EBE8 /* ProductDetailViewModel+Event.swift */; };
+		1824190628C5FD700019EBE8 /* ProductDetailViewModel+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824190528C5FD700019EBE8 /* ProductDetailViewModel+State.swift */; };
 		18D935A228C47FC100EB3751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D935A128C47FC100EB3751 /* AppDelegate.swift */; };
 		18D935A428C47FC100EB3751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D935A328C47FC100EB3751 /* SceneDelegate.swift */; };
 		18D935A628C47FC100EB3751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D935A528C47FC100EB3751 /* ViewController.swift */; };
@@ -16,6 +23,7 @@
 		18D935B928C47FC500EB3751 /* MoviusTableviewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D935B828C47FC500EB3751 /* MoviusTableviewDemoTests.swift */; };
 		18D935C328C47FC500EB3751 /* MoviusTableviewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D935C228C47FC500EB3751 /* MoviusTableviewDemoUITests.swift */; };
 		18D935C528C47FC500EB3751 /* MoviusTableviewDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D935C428C47FC500EB3751 /* MoviusTableviewDemoUITestsLaunchTests.swift */; };
+		18D935D628C48CA600EB3751 /* ProductDetail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D935D428C48CA600EB3751 /* ProductDetail.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180C287028C4BF8500B00C0E /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		180C287628C4C78E00B00C0E /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataClass.swift"; path = "MoviusTableviewDemo/Model/Product+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		180C287728C4C78E00B00C0E /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "MoviusTableviewDemo/Model/Product+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		180C287B28C4CCC000B00C0E /* ProductDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailCell.swift; sourceTree = "<group>"; };
+		180C287C28C4CCC000B00C0E /* ProductDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailCell.xib; sourceTree = "<group>"; };
+		1824190228C5FD250019EBE8 /* ProductDetailViewModel+Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetailViewModel+Event.swift"; sourceTree = "<group>"; };
+		1824190528C5FD700019EBE8 /* ProductDetailViewModel+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetailViewModel+State.swift"; sourceTree = "<group>"; };
 		18D9359E28C47FC100EB3751 /* MoviusTableviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviusTableviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D935A128C47FC100EB3751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D935A328C47FC100EB3751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,7 @@
 		18D935BE28C47FC500EB3751 /* MoviusTableviewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviusTableviewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D935C228C47FC500EB3751 /* MoviusTableviewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviusTableviewDemoUITests.swift; sourceTree = "<group>"; };
 		18D935C428C47FC500EB3751 /* MoviusTableviewDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviusTableviewDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D935D528C48CA600EB3751 /* ProductDetail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductDetail.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +92,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180C286F28C4BF6400B00C0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1824190428C5FD5B0019EBE8 /* State */,
+				1824190128C5FCF60019EBE8 /* Event */,
+				180C287028C4BF8500B00C0E /* ProductDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		180C287A28C4CC9900B00C0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				180C287B28C4CCC000B00C0E /* ProductDetailCell.swift */,
+				180C287C28C4CCC000B00C0E /* ProductDetailCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180C287F28C4F88300B00C0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D935D428C48CA600EB3751 /* ProductDetail.xcdatamodeld */,
+				180C287628C4C78E00B00C0E /* Product+CoreDataClass.swift */,
+				180C287728C4C78E00B00C0E /* Product+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180C288028C4F8B600B00C0E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D935A528C47FC100EB3751 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1824190128C5FCF60019EBE8 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				1824190228C5FD250019EBE8 /* ProductDetailViewModel+Event.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		1824190428C5FD5B0019EBE8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				1824190528C5FD700019EBE8 /* ProductDetailViewModel+State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 		18D9359528C47FC100EB3751 = {
 			isa = PBXGroup;
 			children = (
 				18D935A028C47FC100EB3751 /* MoviusTableviewDemo */,
+				18D935A728C47FC100EB3751 /* Main.storyboard */,
+				18D935AA28C47FC400EB3751 /* Assets.xcassets */,
+				18D935AC28C47FC400EB3751 /* LaunchScreen.storyboard */,
+				18D935AF28C47FC400EB3751 /* Info.plist */,
 				18D935B728C47FC500EB3751 /* MoviusTableviewDemoTests */,
 				18D935C128C47FC500EB3751 /* MoviusTableviewDemoUITests */,
 				18D9359F28C47FC100EB3751 /* Products */,
@@ -101,11 +174,10 @@
 			children = (
 				18D935A128C47FC100EB3751 /* AppDelegate.swift */,
 				18D935A328C47FC100EB3751 /* SceneDelegate.swift */,
-				18D935A528C47FC100EB3751 /* ViewController.swift */,
-				18D935A728C47FC100EB3751 /* Main.storyboard */,
-				18D935AA28C47FC400EB3751 /* Assets.xcassets */,
-				18D935AC28C47FC400EB3751 /* LaunchScreen.storyboard */,
-				18D935AF28C47FC400EB3751 /* Info.plist */,
+				180C287A28C4CC9900B00C0E /* View */,
+				180C287F28C4F88300B00C0E /* Model */,
+				180C286F28C4BF6400B00C0E /* ViewModel */,
+				180C288028C4F8B600B00C0E /* ViewController */,
 			);
 			path = MoviusTableviewDemo;
 			sourceTree = "<group>";
@@ -233,6 +305,7 @@
 			files = (
 				18D935AE28C47FC400EB3751 /* LaunchScreen.storyboard in Resources */,
 				18D935AB28C47FC400EB3751 /* Assets.xcassets in Resources */,
+				180C287E28C4CCC000B00C0E /* ProductDetailCell.xib in Resources */,
 				18D935A928C47FC100EB3751 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +333,14 @@
 			files = (
 				18D935A628C47FC100EB3751 /* ViewController.swift in Sources */,
 				18D935A228C47FC100EB3751 /* AppDelegate.swift in Sources */,
+				18D935D628C48CA600EB3751 /* ProductDetail.xcdatamodeld in Sources */,
+				1824190628C5FD700019EBE8 /* ProductDetailViewModel+State.swift in Sources */,
+				180C287828C4C78E00B00C0E /* Product+CoreDataClass.swift in Sources */,
 				18D935A428C47FC100EB3751 /* SceneDelegate.swift in Sources */,
+				1824190328C5FD250019EBE8 /* ProductDetailViewModel+Event.swift in Sources */,
+				180C287928C4C78E00B00C0E /* Product+CoreDataProperties.swift in Sources */,
+				180C287D28C4CCC000B00C0E /* ProductDetailCell.swift in Sources */,
+				180C287128C4BF8500B00C0E /* ProductDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +698,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D935D428C48CA600EB3751 /* ProductDetail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D935D528C48CA600EB3751 /* ProductDetail.xcdatamodel */,
+			);
+			currentVersion = 18D935D528C48CA600EB3751 /* ProductDetail.xcdatamodel */;
+			path = ProductDetail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18D9359628C47FC100EB3751 /* Project object */;
 }
